@@ -1,6 +1,8 @@
 # Mamajoke
+
 We know that each developer need some laughter during code. So Gem is only for fun.
 This Gem provide give a simple method get_mamajoke() which you can use in any view file. And this function return a random joke . 
+Also you can run command on command line to fetch random joke if you are getting bored during development : rails joke:random
 
 
 ## Installation
@@ -36,12 +38,11 @@ After installation just call get_mamajoke() function in your view and enjoy codi
        <%= get_mamajoke() %>
     </span> 
   
+Also you can run command on command line to fetch random joke if you are getting bored during development:
+    
+    rails joke:random
 
-## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 

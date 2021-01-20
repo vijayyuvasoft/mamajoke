@@ -3,7 +3,7 @@ require_relative 'lib/mamajoke/version'
 Gem::Specification.new do |spec|
   spec.name          = "mamajoke"
   spec.version       = Mamajoke::VERSION
-  spec.authors       = ["Vijay Verma"]
+  spec.authors       = ["Vijay Verma - yuvasoftech.com"]
   spec.email         = ["vijayyuvasoft183@gmail.com"]
 
   spec.summary       = "This gem return a random joke for you"
